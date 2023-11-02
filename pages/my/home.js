@@ -26,6 +26,14 @@ Page({
             },
         });
     },
+    //喝杯咖啡
+    tapToCoffee() {
+        wx.previewImage({
+            urls: ['https://tc.pengqi.club/i/2023/11/02/65435e34d65ad.webp'],
+            current: 'https://tc.pengqi.club/i/2023/11/02/65435e34d65ad.webp',
+            showmenu: true,
+        })
+    },
     // 监听用户滑动页面事件。
     onPageScroll(e) {
         // 注意：请只在需要的时候才在 page 中定义此方法，不要定义空方法。以减少不必要的事件派发对渲染层-逻辑层通信的影响。

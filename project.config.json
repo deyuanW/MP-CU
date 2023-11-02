@@ -38,25 +38,16 @@
         "useCompilerPlugins": [
             "sass"
         ],
-        "ignoreUploadUnusedFiles": true
+        "ignoreUploadUnusedFiles": true,
+        "condition": false
     },
     "compileType": "miniprogram",
     "libVersion": "2.23.2",
     "appid": "wx021a1b8ecfa78ba5",
     "projectname": "MP-CU",
-    "scripts": {},
     "packOptions": {
         "ignore": [],
         "include": []
-    },
-    "watchOptions": {
-        "ignore": []
-    },
-    "debugOptions": {
-        "hidedInDevtools": []
-    },
-    "staticServerOptions": {
-        "servePath": ""
     },
     "condition": {
         "search": {
@@ -77,5 +68,9 @@
         "miniprogram": {
             "list": []
         }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
     }
 }

@@ -28,4 +28,7 @@
             </view>
         </block>
     </view>
+    <view class="ui-container mt-5">
+        <ad unit-id="adunit-d1405ad9d56673ec"></ad>
+    </view>
 </ui-sys>

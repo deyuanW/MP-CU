@@ -21,6 +21,9 @@
     <view class="ui-container">
         <ui-title title="热门模板" depth="2" isIcon ui="ml-3"/>
         <view class="ui-cards goods col-goods">
+            <view class="ui-item">
+                <ad unit-id="adunit-311d856e8bc0e4dc"></ad>
+            </view>
             <view class="ui-item" wx:for="{{list}}" wx:key="index" data-id="{{item.id}}" bindtap="toProductDetail">
                 <image src="{{item.img}}" class="image" mode="aspectFill"/>
                 <view class="content">
@@ -40,6 +43,9 @@
                         </view>
                     </view>
                 </view>
+            </view>
+            <view class="ui-item">
+                <ad unit-id="adunit-d6b5804d89ee6f19"></ad>
             </view>
         </view>
     </view>

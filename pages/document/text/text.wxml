@@ -88,6 +88,11 @@
                 <ui-code>.{{item.class}}</ui-code>
             </view>
         </view>
+    </view>
 
+    <view class="mp-ad-container">
+        <view class="shadow">
+            <ad unit-id="adunit-5cbb45ce88fe9fd7"></ad>
+        </view>
     </view>
 </ui-sys>

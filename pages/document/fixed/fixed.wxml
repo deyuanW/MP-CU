@@ -5,13 +5,17 @@
     <view></view>
     <view class="p-5 bg-blue" wx:for="{{list}}" wx:key="index">{{ index + 1 }}</view>
     <ui-fixed bg="bg-red" sticky scrollTop="{{scrollTop}}">
-        <view class="flex-center p-5">sticky</view>
+        <view class="flex-center p-5">
+            <ad unit-id="adunit-5cbb45ce88fe9fd7"></ad>
+        </view>
     </ui-fixed>
     <view>
         <view class="p-5 bg-cyan" wx:for="{{list}}" wx:key="index">{{ index + 1 }}</view>
     </view>
     <ui-fixed bg="bg-red" sticky val="{{100}}" scrollTop="{{scrollTop}}">
-        <view class="flex-center p-5">sticky</view>
+        <view class="flex-center p-5">
+            <ad unit-id="adunit-5cbb45ce88fe9fd7"></ad>
+        </view>
     </ui-fixed>
     <view>
         <view class="p-5 bg-cyan" wx:for="{{list}}" wx:key="index">{{ index + 1 }}</view>
@@ -19,4 +23,8 @@
     <ui-fixed bg="bg-mask-20" bottom scrollTop="{{scrollTop}}">
         <view class="flex-center p-5">bottom</view>
     </ui-fixed>
+
+    <view class="mp-ad-container">
+        <ad unit-id="adunit-5cbb45ce88fe9fd7"></ad>
+    </view>
 </ui-sys>

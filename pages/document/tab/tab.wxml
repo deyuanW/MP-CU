@@ -61,4 +61,11 @@
 
     <view class="p-4">@change => 输出 {{ change }}</view>
     <ui-tab tab="{{[{name:'选项卡1',icon:'cicon-github text-red'},{name:'选项卡2',tag:''},{name:'选项卡3',tag:'hot'}]}}" bind:change="tabChange"/>
+
+
+    <view class="mp-ad-container">
+        <view class="shadow">
+            <ad unit-id="adunit-5cbb45ce88fe9fd7"></ad>
+        </view>
+    </view>
 </ui-sys>
