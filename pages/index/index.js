@@ -1,4 +1,4 @@
-// packageA/home/home.js
+// pages/index/index.js
 Page({
 
     /**

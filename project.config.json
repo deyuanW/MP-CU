@@ -20,8 +20,6 @@
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
         "useMultiFrameRuntime": true,
-        "useApiHook": true,
-        "useApiHostProcess": true,
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
@@ -42,13 +40,6 @@
         "condition": false
     },
     "compileType": "miniprogram",
-    "libVersion": "2.23.2",
-    "appid": "wx021a1b8ecfa78ba5",
-    "projectname": "MP-CU",
-    "packOptions": {
-        "ignore": [],
-        "include": []
-    },
     "condition": {
         "search": {
             "list": []
@@ -72,5 +63,10 @@
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
-    }
+    },
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "appid": "wxedc21199552a272e"
 }
